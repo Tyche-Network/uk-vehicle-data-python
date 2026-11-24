@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tychelabs-uk-vehicle-data"
+version = "1.0.0"
+description = "UK vehicle data API client - DVLA vehicle enquiry and DVSA MOT history in one call, with ULEZ estimate, mileage checks and expiry webhooks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Tyche Labs Ltd", email = "info@tychelabs.net" }]
+keywords = ["dvla", "mot", "mot-history", "vehicle", "ulez", "uk"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+
+[project.urls]
+Homepage = "https://api.tychelabs.net"
+Documentation = "https://api.tychelabs.net/docs"
+Source = "https://github.com/Tyche-Network/uk-vehicle-data-python"
+
+[tool.setuptools]
+packages = ["uk_vehicle_data"]
